@@ -12,7 +12,7 @@ export default function NavBar() {
                 <div className='hover:text-jungle-green'>Gaming</div>
                 <div className='hover:text-jungle-green'>Photography</div>
             </div>
-            <CartWidget className="w-1/6"/>
+            <CartWidget className="w-1/6" />
             
         </nav>
     )
