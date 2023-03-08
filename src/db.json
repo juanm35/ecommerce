@@ -1,0 +1,67 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "name": "Monkey in the Jungle",
+        "shortDescription": "Digital image of a monkey holding an orb in the jungle.",
+        "longDescription": "This digital image depicts a monkey sitting in a tree, holding a glowing orb in its hand. The monkey is surrounded by lush green jungle foliage.",
+        "price": 19.99,
+        "category": "art",
+        "image": "https://example.com/images/monkey_jungle.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Ship on the Ocean",
+        "shortDescription": "Digital image of a ship sailing on the ocean.",
+        "longDescription": "This digital image depicts a sailing ship on a calm ocean, with blue skies and fluffy white clouds in the background.",
+        "price": 24.99,
+        "category": "photography",
+        "image": "https://example.com/images/ship_ocean.jpg"
+      },
+      {
+        "id": 3,
+        "name": "City in the Valley",
+        "shortDescription": "Digital image of a city nestled in a valley.",
+        "longDescription": "This digital image depicts a sprawling city nestled in a lush green valley, surrounded by mountains in the distance.",
+        "price": 29.99,
+        "category": "art",
+        "image": "https://example.com/images/city_valley.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Monkey in the Jungle",
+        "shortDescription": "Digital image of a monkey holding an orb in the jungle.",
+        "longDescription": "This digital image depicts a monkey sitting in a tree, holding a glowing orb in its hand. The monkey is surrounded by lush green jungle foliage.",
+        "price": 19.99,
+        "category": "art",
+        "image": "https://example.com/images/monkey_jungle.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Ship on the Ocean",
+        "shortDescription": "Digital image of a ship sailing on the ocean.",
+        "longDescription": "This digital image depicts a sailing ship on a calm ocean, with blue skies and fluffy white clouds in the background.",
+        "price": 24.99,
+        "category": "photography",
+        "image": "https://example.com/images/ship_ocean.jpg"
+      },
+      {
+        "id": 6,
+        "name": "City in the Valley",
+        "shortDescription": "Digital image of a city nestled in a valley.",
+        "longDescription": "This digital image depicts a sprawling city nestled in a lush green valley, surrounded by mountains in the distance.",
+        "price": 29.99,
+        "category": "art",
+        "image": "https://example.com/images/city_valley.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Monkey in the Jungle",
+        "shortDescription": "Digital image of a monkey holding an orb in the jungle.",
+        "longDescription": "This digital image depicts a monkey sitting in a tree, holding a glowing orb in its hand. The monkey is surrounded by lush green jungle foliage.",
+        "price": 19.99,
+        "category": "art",
+        "image": "https://example.com/images/monkey_jungle.jpg"
+      },
+      {
+        "id": 8,    "name": "Ship on the Ocean",    "shortDescription": "Digital image of a ship sailing on the ocean.",    "longDescription": "This digital image depicts a sailing ship on a calm ocean, with blue skies and fluffy white clouds in the background.",    "price": 24.99,    "category": "photography",    "image": "https://example.com/images/ship_ocean.jpg"  },  {    "id": 9,    "name": "City in the Valley",    "shortDescription": "Digital image of a city nestled in a valley.",    "longDescription": "This digital image depicts a sprawling city nestled in a lush green valley, surrounded by mountains in the distance.",    "price": 29.99,    "category": "gaming",    "image": "https://example.com/images/city_valley.jpg"  },  {    "id": 10,    "name": "Monkey in the Jungle",    "shortDescription": "Digital image of a monkey holding an orb in the jungle.",    "longDescription": "This digital image depicts a monkey sitting in a tree, holding a glowing orb in its hand. The monkey is surrounded by lush green jungle foliage.",    "price": 19.99,    "category": "gaming",    "image": "https://example.com/images/monkey_jungle.jpg"  },  {    "id": 11,    "name": "Ship on the Ocean",    "shortDescription": "Digital image of a ship sailing on the ocean.",    "longDescription": "This digital image depicts a sailing ship on a calm ocean, with blue skies and fluffy white clouds in the background.",    "price": 24.99,    "category": "photography",    "image": "https://example.com/images/ship_ocean.jpg"  },  {    "id": 12,    "name": "City in the Valley",    "shortDescription": "Digital image of a city nestled in a valley.",    "longDescription": "This digital image depicts a sprawling city nestled in a lush green valley, surrounded by mountains in the distance.",    "price": 29.99,    "category": "art",    "image": "https://example.com/images/city_valley.jpg"  },  {    "id": 13,    "name": "Monkey in the Jungle",    "shortDescription": "Digital image of a monkey holding an orb in the jungle.",    "longDescription": "This digital image depicts a monkey sitting in a tree, holding a glowing orb in its hand. The monkey is surrounded by lush green jungle foliage.",    "price": 19.99,    "category": "gaming",    "image": "https://example.com/images/monkey_jungle.jpg"  }]}
