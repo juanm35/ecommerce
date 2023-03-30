@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import cartContext from "../context/cartContext";
 import logo from '../Logo.png';
 import CartWidget from './Cart/CartWidget.js'
 import {Link} from 'react-router-dom';
 
 export default function NavBar() {
+  const { cart, removeItemFromCart, getPriceInCart, clearCart, getCountInCart } = useContext(cartContext);
+
   return (
     <nav className="flex items-center justify-between bg-jungle-grey px-6 py-4 lg:px-16 lg:py-2">
       <div className="flex items-center flex-shrink-0 mr-6">
@@ -28,9 +31,9 @@ export default function NavBar() {
             Photography
           </Link>
         </div>
-        <div className="pl-4 lg:pl-8">
-          <CartWidget className="w-12 h-12 cursor-pointer" />
-        </div>
+        <Link to={`/mycart`} className="pl-4 lg:pl-8">
+          <CartWidget count={getCountInCart(cart)} className="w-12 h-12 cursor-pointer" />
+        </Link>
       </div>
     </nav>
   );

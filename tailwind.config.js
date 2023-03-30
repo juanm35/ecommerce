@@ -8,7 +8,8 @@ module.exports = {
       colors: {
         'jungle-grey': '#222831',
         'jungle-green': '#72B01D',
-        'jungle-greyblue': '#76949F'
+        'jungle-greyblue': '#76949F',
+        'jungle-blue': ' #1D72B0'
       }
     },
   },

@@ -1,11 +1,13 @@
 import { BsFillCartFill } from 'react-icons/bs';
 import './Cart.css'
 
-export default function CartWidget() {
+export default function CartWidget({count}) {
   return (
     <a href="#" className="cart-widget">
       <BsFillCartFill className="icon"/>
-      <span className="badge">3</span>
+      {count>0?
+      <span className="badge">{count}</span>:
+      <></>}
     </a>
   );
 }
