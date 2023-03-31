@@ -1,26 +1,46 @@
 import React, { useState, useContext } from 'react';
 import cartContext from "../context/cartContext";
 import CartItem from './CartItem';
+import { useNavigate } from "react-router-dom";
+import { createOrder } from "../services/firestore";
 
 export default function CardDetailContainer() {
   const { cart, removeItemFromCart, getPriceInCart, clearCart, getCountInCart } = useContext(cartContext);
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
+  const [buyerName, setBuyerName] = useState('');
+  const [buyerEmail, setBuyerEmail] = useState('');
+
+  const navigateTo = useNavigate();
 
   const handleNameChange = (event) => {
-    setName(event.target.value);
+    setBuyerName(event.target.value);
   };
 
   const handleEmailChange = (event) => {
-    setEmail(event.target.value);
+    setBuyerEmail(event.target.value);
   };
 
-  const handleSubmit = (event) => {
+  async function handleSubmit(event) {
     event.preventDefault();
-    console.log('Name:', name);
-    console.log('Email:', email);
-    // Call an API to complete the purchase with the personal details
+    let userData = {
+      name: buyerName,
+      email: buyerEmail
+    }
+    const orderData = {
+      buyer: userData,
+      items: cart,
+      total: getPriceInCart(cart).toFixed(2),
+      timestamp: new Date(),
+    };
+    const id = await createOrder(orderData);
+
+    clearCart()
+
+    navigateTo(`/checkout`);
   };
+
+  const submitData = () => {
+
+  }
 
   return (
     <div className="flex flex-col items-center p-8">
@@ -60,7 +80,7 @@ export default function CardDetailContainer() {
             id="name"
             name="name"
             className="border border-gray-400 p-2 rounded-lg"
-            value={name}
+            value={buyerName}
             onChange={handleNameChange}
           />
         </div>
@@ -73,11 +93,11 @@ export default function CardDetailContainer() {
             id="email"
             name="email"
             className="border border-gray-400 p-2 rounded-lg"
-            value={email}
+            value={buyerEmail}
             onChange={handleEmailChange}
           />
         </div>
-        <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 mt-4 rounded">
+        <button type='submit' className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 mt-4 rounded">
           Buy products
         </button>
       </form>

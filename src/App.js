@@ -5,6 +5,7 @@ import HomePage from './pages/Home.js'
 import Category from './pages/Category.js'
 import ItemDetail from './pages/ItemDetail.js'
 import MyCart from './pages/MyCart.js'
+import Checkout from './pages/Checkout.js'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { CartContextProvider } from "./context/cartContext";
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/category/:categoryId' element={<Category />} />
         <Route path='/item/:itemId' element={<ItemDetail />} />
         <Route path='/mycart' element={<MyCart />} />
+        <Route path='/checkout' element={<Checkout />} />
     </Routes>
     </BrowserRouter>
   </CartContextProvider>

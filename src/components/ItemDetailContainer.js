@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import monkeyImage from '../assets/Monkey.png'
 import shipImage from '../assets/Ship.png'
 import valleyImage from '../assets/Valley.png'
-import Catalog from '../db.json'
 import {Link} from 'react-router-dom';
 import { useContext } from "react";
 import cartContext from "../context/cartContext";
+import {getSingleItemFromDatabase} from '../services/firestore'
 
 export default function ItemDetail({ itemId }) {
   const imagesSamples = [monkeyImage, shipImage, valleyImage, monkeyImage, shipImage, valleyImage, monkeyImage, shipImage, valleyImage, monkeyImage, shipImage, valleyImage,valleyImage]
@@ -14,10 +14,13 @@ export default function ItemDetail({ itemId }) {
   const { addItem, isInCart } = useContext(cartContext);
   const [count, setCount] = useState(1);
 
-  useEffect(()=>{
-    console.log("itemID recibido: ", itemId)
-    setItem(Catalog.items[itemId-1] ?? "Item not found")
-  }, [itemId])
+  useEffect(() => {
+    getSingleItemFromDatabase(itemId)
+      .then((respuesta) => {
+        setItem(respuesta);
+      })
+      .catch((error) => setItem("Item not found"));
+  }, [itemId]);
 
   const handleDecrement = () => {
     if (count > 1) {
@@ -50,7 +53,7 @@ export default function ItemDetail({ itemId }) {
         <div className="flex flex-col items-center justify-center h-fit m-8">
           
             <div className="max-w-md w-full rounded-lg overflow-hidden shadow-lg">
-              <img className="w-full" src={imagesSamples[item.id-1]} alt={item.name} />
+              <img className="w-full" src={imagesSamples[0]} alt={item.name} />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">{item.name}</div>
                 <div className="font-bold text-xl mb-2">${item.price}</div>
