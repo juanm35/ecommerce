@@ -3,11 +3,11 @@ import './Cart.css'
 
 export default function CartWidget({count}) {
   return (
-    <a href="#" className="cart-widget">
+    <div className="cart-widget">
       <BsFillCartFill className="icon"/>
       {count>0?
       <span className="badge">{count}</span>:
       <></>}
-    </a>
+    </div>
   );
 }

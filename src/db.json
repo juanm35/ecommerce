@@ -5,54 +5,96 @@
       "shortDescription": "Digital image of a monkey holding an orb in the jungle.",
       "longDescription": "This digital image depicts a monkey sitting in a tree, holding a glowing orb in its hand. The monkey is surrounded by lush green jungle foliage.",
       "price": 19.99,
-      "category": "art",
-      "image": "https://example.com/images/monkey_jungle.jpg"
+      "category": "fantasy",
+      "image": "Monkey.png"
     },
     {
       "name": "Ship on the Ocean",
       "shortDescription": "Digital image of a ship sailing on the ocean.",
       "longDescription": "This digital image depicts a sailing ship on a calm ocean, with blue skies and fluffy white clouds in the background.",
       "price": 24.99,
-      "category": "photography",
-      "image": "https://example.com/images/ship_ocean.jpg"
+      "category": "fantasy",
+      "image": "Ship.png"
     },
     {
       "name": "City in the Valley",
       "shortDescription": "Digital image of a city nestled in a valley.",
       "longDescription": "This digital image depicts a sprawling city nestled in a lush green valley, surrounded by mountains in the distance.",
       "price": 29.99,
-      "category": "art",
-      "image": "https://example.com/images/city_valley.jpg"
+      "category": "fantasy",
+      "image": "Valley.png"
     },
     {
-      "name": "Monkey in the Jungle",
-      "shortDescription": "Digital image of a monkey holding an orb in the jungle.",
-      "longDescription": "This digital image depicts a monkey sitting in a tree, holding a glowing orb in its hand. The monkey is surrounded by lush green jungle foliage.",
-      "price": 19.99,
+      "name": "Astronaut on Mars",
+      "shortDescription": "Digital image of an astronaut exploring Mars.",
+      "longDescription": "This digital image depicts an astronaut in a red space suit standing on the surface of Mars, with the barren red landscape and rocky hills in the background.",
+      "price": 49.99,
       "category": "art",
-      "image": "https://example.com/images/monkey_jungle.jpg"
-    },
-    {
-      "name": "Ship on the Ocean",
-      "shortDescription": "Digital image of a ship sailing on the ocean.",
-      "longDescription": "This digital image depicts a sailing ship on a calm ocean, with blue skies and fluffy white clouds in the background.",
-      "price": 24.99,
-      "category": "photography",
-      "image": "https://example.com/images/ship_ocean.jpg"
-    },
-    {
-      "name": "City in the Valley",
-      "shortDescription": "Digital image of a city nestled in a valley.",
-      "longDescription": "This digital image depicts a sprawling city nestled in a lush green valley, surrounded by mountains in the distance.",
-      "price": 29.99,
-      "category": "art",
-      "image": "https://example.com/images/city_valley.jpg"
-    },
-    {
-      "name": "Monkey in the Jungle",
-      "shortDescription": "Digital image of a monkey holding an orb in the jungle.",
-      "longDescription": "This digital image depicts a monkey sitting in a tree, holding a glowing orb in its hand. The monkey is surrounded by lush green jungle foliage.",
-      "price": 19.99,
-      "category": "art",
-      "image": "https://example.com/images/monkey_jungle.jpg"
-    }]} 
+      "image": "Astronaut.png"
+      },
+      {
+        "name": "King of the Jungle",
+        "shortDescription": "Digital image of a fierce predator in the jungle.",
+        "longDescription": "This digital image depicts a fierce and powerful predator roaming through the lush jungle, with its sharp claws and teeth on full display.",
+        "price": 39.99,
+        "category": "fantasy",
+        "image": "Creature.png"
+        },
+        {
+          "name": "Fox in Abstract",
+          "shortDescription": "Digital image of a fox in an abstract art style.",
+          "longDescription": "This digital image depicts a fox in an abstract art style, with vibrant colors and geometric shapes creating a unique and eye-catching interpretation of the animal.",
+          "price": 19.99,
+          "category": "art",
+          "image": "Fox.png"
+          },
+          {
+            "name": "Super Mario Bros Adventure",
+            "shortDescription": "Digital image of Mario and Luigi on a quest.",
+            "longDescription": "This digital image depicts Mario and Luigi on an adventure through the Mushroom Kingdom, jumping over obstacles, battling enemies, and collecting coins.",
+            "price": 9.99,
+            "category": "gaming",
+            "image": "Mariobross.png"
+            },
+            {
+              "name": "Mario Kart Madness",
+              "shortDescription": "Digital image of characters racing in Mario Kart.",
+              "longDescription": "This digital image depicts the colorful cast of characters from the Mario universe racing around exciting tracks in their go-karts, using power-ups and speed boosts to gain the advantage.",
+              "price": 14.99,
+              "category": "gaming",
+              "image": "Mariokart.png"
+              }, 
+              {
+                "name": "Jungle Odyssey",
+                "shortDescription": "Digital image of a spaceship flying over the jungle.",
+                "longDescription": "This digital image depicts a sleek spaceship flying over a lush jungle, with the towering trees and winding rivers far below. It gives the feeling of a thrilling adventure waiting to unfold.",
+                "price": 34.99,
+                "category": "fantasy",
+                "image": "Spaceship.png"
+                },
+                {
+                  "name": "Weird Earth",
+                  "shortDescription": "Digital image of Earth in space with a surreal twist.",
+                  "longDescription": "This digital image depicts the Earth floating in space, but with a surreal twist. It might feature unusual colors, distorted shapes, or other unexpected elements that create an otherworldly and captivating effect.",
+                  "price": 24.99,
+                  "category": "art",
+                  "image": "WeirdEarth.png"
+                  },
+                  {
+                    "name": "World Cup Replica",
+                    "shortDescription": "Digital image of a replica of the World Cup trophy.",
+                    "longDescription": "This digital image depicts a highly detailed replica of the World Cup trophy, featuring all the intricate details and engravings of the real thing. It's a perfect way for soccer fans to show their love for the sport.",
+                    "price": 29.99,
+                    "category": "art",
+                    "image": "Worldcup.png"
+                    },
+                    {
+                      "name": "Abstract WTF",
+                      "shortDescription": "Digital image of an abstract art piece that will make you say WTF.",
+                      "longDescription": "This digital image depicts an abstract art piece that is sure to catch your eye and leave you wondering what it all means. It might feature bold colors, unusual shapes, or other unexpected elements that will make you say WTF.",
+                      "price": 19.99,
+                      "category": "art",
+                      "image": "Wtf.png"
+                      }
+    
+    ]} 

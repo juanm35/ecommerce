@@ -20,15 +20,15 @@ export default function NavBar() {
         </button>
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div className="text-2xl lg:text-3xl lg:flex-grow lg:text-left">
-          <Link to={`/category/art`} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-jungle-green mr-8">
+        <div className="text-2xl lg:text-3xl lg:flex-grow lg:text-left">          
+        | <Link to={`/category/fantasy`} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-jungle-green">
+            Fantasy
+          </Link>
+          <Link to={`/category/art`} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-jungle-green mr-8 ml-8">
             Art
           </Link>
           <Link to={`/category/gaming`} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-jungle-green mr-8">
             Gaming
-          </Link>
-          <Link to={`/category/photography`} className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-jungle-green">
-            Photography
           </Link>
         </div>
         <Link to={`/mycart`} className="pl-4 lg:pl-8">
